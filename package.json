@@ -4,8 +4,26 @@
   "description": "Hi i'm Roland",
   "main": "index.js",
   "author": "Roland Olah <rolandolah91+github@gmail.com>",
-  "license": "MIT"
-},
-"bin": {
-	"aws-move-queue-messages": "./src/index.js"
-},
+  "license": "MIT",
+  "bin": {
+    "hi-roland": "./src/index.js"
+  },
+  "dependencies": {
+    "inquirer": "^6.2.0",
+    "terminal-image": "^0.1.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/I2olanD/hi-roland.git"
+  },
+  "keywords": [
+    "roland",
+    "cli",
+    "whoami"
+  ],
+  "bugs": {
+    "url": "https://github.com/I2olanD/hi-roland/issues"
+  },
+  "homepage": "https://github.com/I2olanD/hi-roland#readme"
+}
