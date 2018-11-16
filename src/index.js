@@ -51,8 +51,10 @@ async function main() {
       break;
     case 'rolandWork':
       rolandWork();
+      break;
     case 'risotto':
       risotto();
+      break;
     default:
       break;
   }
