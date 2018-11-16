@@ -3,7 +3,7 @@
 const { prompt } = require('inquirer');
 const terminalImage = require('terminal-image');
 
-const showPicture = async () => console.log(await terminalImage.file('roland.jpg'));
+const showPicture = async () => console.log(await terminalImage.file(__dirname + '/roland.jpg'));
 const showMore = () => console.log('Github: https://github.com/I2olanD');
 const showContact = () => console.log('coming soon!');
 
@@ -28,10 +28,6 @@ prompt(
     ],
   },
 ).then(({ roland }) => {
-  if (roland === 'showPicture') {
-    showPicture();
-  }
-
   switch(roland) {
     case 'showPicture':
       showPicture()
