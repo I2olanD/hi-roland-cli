@@ -5,8 +5,8 @@ const terminalImage = require('terminal-image');
 
 const showPicture = async () => console.log(await terminalImage.file(__dirname + '/roland.jpg'));
 const showMore = () => console.log('Github: https://github.com/I2olanD');
-const showContact = () => console.log('coming soon!');
-const rolandWork = () => console.log('Joblocal');
+const showContact = () => console.log('Mail: rolandolah91@gmail.com || LinkedIn: https://www.linkedin.com/in/roland-olah-709550169');
+const rolandWork = () => console.log('Joblocal: https://www.joblocal.de');
 const risotto = () => console.log('You will have to wait in line!');
 
 async function main() {
