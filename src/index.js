@@ -3,9 +3,8 @@
 const { prompt } = require('inquirer');
 const terminalImage = require('terminal-image');
 
-const showPicture = async () => console.log(await terminalImage.file(__dirname + '/roland.jpg'));
 const showMore = () => console.log('Github: https://github.com/I2olanD');
-const showContact = () => console.log('Mail: rolandolah91@gmail.com || LinkedIn: https://www.linkedin.com/in/roland-olah-709550169');
+const showContact = () => console.log('Mail: rolandolah@icloud.com || LinkedIn: https://www.linkedin.com/in/roland-olah-709550169');
 const rolandWork = () => console.log('Joblocal: https://www.joblocal.de');
 const risotto = () => console.log('You will have to wait in line!');
 
@@ -15,10 +14,6 @@ async function main() {
     name: 'roland',
     message: 'What do you want to know about Roland?',
     choices: [
-      {
-        name: 'Show me a picture!',
-        value: 'showPicture',
-      },
       {
         name: 'Tell me more about Roland!',
         value: 'showMore',
@@ -32,7 +27,7 @@ async function main() {
         value: 'rolandWork',
       },
       {
-        name: 'What can I do if I want to try Roland\'s infamous Risotto?',
+        name: 'What can I do if I want to try Roland\'s famous Risotto?',
         value: 'risotto',
       },
     ],
@@ -40,9 +35,6 @@ async function main() {
   const { roland } = choice;
 
   switch (roland) {
-    case 'showPicture':
-      showPicture();
-      break;
     case 'showMore':
       showMore();
       break;
