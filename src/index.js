@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 const { prompt } = require('inquirer');
-const terminalImage = require('terminal-image');
 
 const showMore = () => console.log('Github: https://github.com/I2olanD');
 const showContact = () => console.log('Mail: rolandolah@icloud.com || LinkedIn: https://www.linkedin.com/in/roland-olah-709550169');
