@@ -4,7 +4,7 @@ const { prompt } = require('inquirer');
 
 const showMore = () => console.log('Github: https://github.com/I2olanD');
 const showContact = () => console.log('Mail: rolandolah@icloud.com || LinkedIn: https://www.linkedin.com/in/roland-olah-709550169');
-const rolandWork = () => console.log('Joblocal: https://www.joblocal.de');
+const rolandWork = () => console.log('Marc-O-Polo: https://company.marc-o-polo.com/');
 const risotto = () => console.log('You will have to wait in line!');
 
 async function main() {
@@ -31,6 +31,7 @@ async function main() {
       },
     ],
   });
+
   const { roland } = choice;
 
   switch (roland) {
